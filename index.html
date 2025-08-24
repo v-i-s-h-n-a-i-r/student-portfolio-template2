@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR NAME - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>YOUR NAME HERE</h1>
+            <p class="tagline">YOUR JOB TITLE</p>
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>WRITE ABOUT YOURSELF HERE</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <span class="skill">SKILL 1</span>
+                <span class="skill">SKILL 2</span>
+                <span class="skill">SKILL 3</span>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: YOUR EMAIL</p>
+            <p>GitHub: YOUR GITHUB</p>
+        </section>
+    </div>
+
+    <!-- Students will add this during workflow -->
+    <div class="build-info">
+        <p>Last updated: <span id="build-time"></span></p>
+    </div>
+
+    <script>
+        // Simple script students will modify
+        document.getElementById('build-time').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
